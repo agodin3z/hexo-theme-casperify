@@ -4,25 +4,25 @@ cover: /css/images/background.jpeg
 # authors
 authors:
   user:
-    name: Another User
-    username: myUser
+    name:
+    username:
     avatar: /css/images/avatar.png
-    shortbio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.'
-    longbio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.'
-    location: Earth, Milky Way
-    website: http://andresgodinez.me/hexo-theme-casperify/
+    shortbio:
+    longbio:
+    location:
+    website:
     cover: /css/images/background.jpeg
     social: # Add social network profile links
-      facebook: https://facebook.com/
-      twitter: https://twitter.com/
-      google-plus: https://plus.google.com/
-      github: https://github.com/
-      instagram: https://instagram.com/
-      flirck: https://flirck.com/
-      linkedin: https://linkedin.com/
-      steam: https://store.steampowered.com/
-      tumblr: https://tumblr.com/
-      pinterest: https://pinterest.com/
+      facebook:
+      twitter:
+      google-plus:
+      github:
+      instagram:
+      flirck:
+      linkedin:
+      steam:
+      tumblr:
+      pinterest:
 
 #opengraph
 twitter_profile:
@@ -35,8 +35,8 @@ fitvids: true
 
 excerpt_link: Read More
 
-#SEO
+#analytics
 google_analytics:
 
-# Miscellaneous
+# Miscellaneous, check out your root config in _config.yml
 rss: /atom.xml
