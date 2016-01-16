@@ -244,7 +244,7 @@ authors:
 ```
 > Note: The commented parts are optional, won’t affect the site if they're without information.
 
-> To add more social links, write the id according to te icon’s name [FontAwesome] http://fontawesome.io/icons/#brand)
+> To add more social links, write the id according to te icon’s name [FontAwesome](http://fontawesome.io/icons/#brand)
 
 > The author's id must be added for each post
 ``` yml
