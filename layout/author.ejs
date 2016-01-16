@@ -1,0 +1,29 @@
+<%
+  var a = theme.authors;
+  var b = page.author;
+%>
+<main id="content" class="content" role="main" style="overflow: initial;">
+  <section class="author-profile inner">
+      <figure class="author-image">
+          <a class="img" href="/author/<%- a[b].username || page.author_username %>" style="background-image: url(<%- a[b].avatar || config.avatar %>)"><span class="hidden">John O'Nolan's Picture</span></a>
+      </figure>
+      <h1 class="author-title"><%- a[b].name || page.author_name %></h1>
+      <h2 class="author-bio"><%- a[b].longbio || page.longbio %></h2>
+      <% if (a[b].location || a[b].website || page.location || page.website) {%>
+        <div class="author-meta">
+          <% if (a[b].location || page.location) {%> <span class="author-location icon-location"><%- a[b].location || page.location %></span><% } %>
+          <% if (a[b].website || page.website) {%><span class="author-link icon-link"> <a href="<%- a[b].website %>"><%- a[b].website || page.website %></a></span><% } %>
+      <% } %>
+      <section><br>
+        <% if (a[b].social) {%>
+          <% for (var i in a[b].social){ %>
+            <a id="<%- i %>" href="<%-a[b].social[i] %>" class="author-social"><i class="fa fa-<%- i %> fa-3x"></i></a>
+          <% } %>
+        <% } else { %>
+          <% for (var i in page.social){ %>
+            <a id="<%- i %>" href="<%-page.social[i] %>" class="author-social"><i class="fa fa-<%- i %> fa-3x"></i></a>
+          <% } %>
+        <% } %>
+      </section>
+  </section>
+</main>

@@ -1,0 +1,77 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+<% if (theme.fitvids || page.fitvids){ %>
+  <script type="text/javascript" src="<%- config.root%>js/jquery.fitvids.js"></script>
+  <script type="text/javascript">
+    (function($){
+      var $postContent = $(".post-content");
+      $postContent.fitVids();
+    })(jQuery);
+  </script>
+<% } %>
+
+<script type="text/javascript" src="<%- config.root%>js/index.js"></script>
+
+<% if (theme.lightbox || page.lightbox){ %>
+  <script src="<%- config.root%>js/jquery.magnific-popup.min.js"></script>
+  <script type="text/javascript">
+    (function($){
+      var wrapAll = function(q) {
+        $(q).each( function() {
+          var $img = $(this),
+              href = $img.attr('src');
+          $img.wrap('<div class="zoom-gallery"><a href="' + href + '" title="' + $img.attr('alt') + '" class="link"></a></div>');
+        });
+      };
+      wrapAll('.post-content img');
+      wrapAll('.post-excerpt img');
+      $('.zoom-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        closeOnContentClick: false,
+        closeBtnInside: false,
+        mainClass: 'mfp-with-zoom mfp-img-mobile',
+        image: {
+          verticalFit: true,
+          titleSrc: function(item) {
+            return item.el.attr('title');
+          }
+        },
+        gallery: {
+          enabled: true
+        },
+        zoom: {
+          enabled: true,
+          duration: 300, // don't foget to change the duration also in CSS
+          opener: function(element) {
+            return element.find('img');
+          }
+        }
+      });
+    })(jQuery);
+  </script>
+<% } %>
+
+<% if (theme.google_analytics) { %>
+  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','<%- theme.google_analytics %>','auto');ga('send','pageview');
+  </script>
+<% } %>
+
+<% if (config.disqus_shortname){ %>
+  <script type="text/javascript">
+      var disqus_shortname = '<%= config.disqus_shortname %>';
+      (function(){
+          var dsq = document.createElement('script');
+          dsq.type = 'text/javascript';
+          dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/<% if (page.comments){ %>embed.js<% } else { %>count.js<% } %>';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }());
+  </script>
+<% } %>

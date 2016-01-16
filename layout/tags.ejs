@@ -1,0 +1,10 @@
+<main id="content" class="content" role="main">
+  <div class="post">
+    <h2>Tag Cloud</h2>
+  </div>
+  <article class="post">
+    <% if(site.tags.length) { %>
+      <%- tagcloud(site.tags) %>
+    <% } %>
+  </article>
+</main>

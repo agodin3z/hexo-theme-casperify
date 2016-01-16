@@ -1,0 +1,10 @@
+<main id="content" class="content" role="main">
+  <div class="post">
+    <h2>List of Categories</h2>
+  </div>
+  <article class="post">
+    <% if(site.categories.length) { %>
+      <%- list_categories(site.categories) %>
+    <% } %>
+  </article>
+</main>

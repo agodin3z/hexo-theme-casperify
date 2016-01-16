@@ -1,0 +1,75 @@
+<%
+  var title = page.title;
+
+  if (is_archive()){
+    title = 'Archives';
+
+    if (is_month()){
+      title += ': ' + page.year + '/' + page.month;
+    } else if (is_year()){
+      title += ': ' + page.year;
+    }
+  } else if (is_category()){
+    title = 'Category: ' + page.category;
+  } else if (is_tag()){
+    title = 'Tag: ' + page.tag;
+  }
+%>
+<head>
+  <meta charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+  <meta name="description" content="<%- config.subtitle %>" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" type="image/png" href="css/images/favicon.png"/>
+
+  <%- open_graph({twitter_id: theme.twitter_profile, google_plus: theme.googleplus_profile, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
+  <%- css('css/normalize') %>
+  <%- css('css/font-awesome') %>
+  <%- css('css/screen') %>
+
+  <% if (theme.lightbox || page.lightbox){ %>
+    <%- css('css/magnific-popup') %>
+    <style media="screen">
+      .mfp-with-zoom .mfp-container,
+      .mfp-with-zoom.mfp-bg {
+        opacity: 0;
+        -webkit-backface-visibility: hidden;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+
+      .mfp-with-zoom.mfp-ready .mfp-container {
+          opacity: 1;
+      }
+      .mfp-with-zoom.mfp-ready.mfp-bg {
+          opacity: 0.8;
+      }
+
+      .mfp-with-zoom.mfp-removing .mfp-container,
+      .mfp-with-zoom.mfp-removing.mfp-bg {
+        opacity: 0;
+      }
+    </style>
+  <% } %>
+
+  <meta name="generator" content="<%- config.title %>">
+
+  <% if (config.rss) { %>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="<%- config.rss %>">
+  <% } %>
+
+  <% if (config.feed && config.feed.type == 'atom') { %>
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<%- config.feed.path %>">
+  <% } %>
+
+  <% if (config.feed && config.feed.type == 'rss') { %>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="<%- config.feed.path %>">
+  <% } %>
+
+</head>

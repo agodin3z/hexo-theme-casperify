@@ -1,0 +1,19 @@
+<%
+  var a = theme.authors;
+  var b = post.author;
+%>
+<section class="post-meta">
+    <% if (a[b].username || post.author_username ) {%>
+      <img class="author-thumb" src="<%- a[b].avatar || post.avatar %>" alt="<%= a[b].name || post.author_name %>" nopin="nopin">
+      <a href="/author/<%= a[b].username || post.author_username %>"><span> <%= a[b].name || post.author_name %></span></a>
+    <% } %>
+    <% if (post.tags && post.tags.length){ %>
+    <% count = post.tags.length %>
+    on <% post.tags.forEach(function(tag, index) { %>
+    <a href='<%= url_for(tag.path) %>'><%= tag.name %></a><% if (count !== index+1) { %>,<% } %>
+    <% }); %>
+    <% } %>
+      <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished" class="post-date">
+          <%= date(post.date, null) %>
+      </time>
+</section>

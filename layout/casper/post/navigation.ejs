@@ -1,0 +1,23 @@
+
+<aside class="read-next">
+  <% if (page.prev) { %>
+    <a class="read-next-story " style="background-image: url(<%- page.prev.cover %>)" href="<%- url_for(page.prev.path) %>">
+        <section class="post">
+            <h2><%- page.prev.title %></h2>
+            <p>
+              <%- page.prev.content.replace(/<(?:.|\n)*?>/gm, '').substr(0, 140) %>...
+            </p>
+        </section>
+    </a>
+  <% } %>
+  <% if (page.next) { %>
+    <a class="read-next-story prev " style="background-image: url(<%- page.next.cover %>)" href="<%- url_for(page.next.path) %>">
+        <section class="post">
+            <h2><%- page.next.title %></h2>
+            <p>
+              <%- page.next.content.replace(/<(?:.|\n)*?>/gm, '').substr(0, 140) %>...
+            </p>
+        </section>
+    </a>
+  <% } %>
+</aside>

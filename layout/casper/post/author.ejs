@@ -1,0 +1,29 @@
+<%
+  var a = theme.authors;
+  var b = post.author;
+%>
+
+<figure class="author-image">
+  <a class="img" href="/author/<%- a[b].username || post.author_username %>" style="background-image: url(<%- a[b].avatar || config.avatar %>)"><span class="hidden">John O'Nolan's Picture</span></a>
+</figure>
+<section class="author">
+    <h4><%- a[b].name || post.author_name %></h4>
+    <p><%- a[b].shortbio || post.shortbio %></p>
+    <% if (a[b].location || a[b].website || post.location || post.website) {%>
+      <div class="author-meta">
+        <% if (a[b].location || post.location) {%> <span class="author-location icon-location"><%- a[b].location || post.location %></span><% } %>
+        <% if (a[b].website || post.website) {%><span class="author-link icon-link"> <a href="<%- a[b].website %>"><%- a[b].website || post.website %></a></span><% } %>
+    <% } %>
+    <section><br>
+      <% if (a[b].social) {%>
+        <% for (var i in a[b].social){ %>
+          <a id="<%- i %>" href="<%-a[b].social[i] %>" class="author-social"><i class="fa fa-<%- i %> fa-2x"></i></a>
+        <% } %>
+      <% } else { %>
+        <% for (var i in post.social){ %>
+          <a id="<%- i %>" href="<%-post.social[i] %>" class="author-social"><i class="fa fa-<%- i %> fa-2x"></i></a>
+        <% } %>
+      <% } %>
+    </section>
+    </div>
+</section>
