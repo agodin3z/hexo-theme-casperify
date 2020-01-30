@@ -13,7 +13,7 @@ Before anything, in the top directory of the project, run:
 
 
 ``` bash
-$ git clone https://github.com/AGodinez/hexo-theme-casperify.git themes/casperify
+$ git clone https://github.com/agodin3z/hexo-theme-casperify.git themes/casperify
 ```
 
 > **Note:** You need to change the theme’s name in the configuration file of your project in order to use it with Hexo.
@@ -244,7 +244,7 @@ authors:
 ```
 > Note: The commented parts are optional, won’t affect the site if they're without information.
 
-> To add more social links, write the id according to te icon’s name [FontAwesome](http://fontawesome.io/icons/#brand)
+> To add more social links, write the id according to te icon’s name [FontAwesome](https://fontawesome.com/v4.7.0/icons/#brand)
 
 > The author's id must be added for each post
 ``` yml
