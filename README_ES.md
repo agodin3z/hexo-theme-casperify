@@ -14,7 +14,7 @@ Antes de todo, nos situamos en el directorio principal de nuestro proyecto y eje
 
 
 ``` bash
-$ git clone https://github.com/AGodinez/hexo-theme-casperify.git themes/casperify
+$ git clone https://github.com/agodin3z/hexo-theme-casperify.git themes/casperify
 ```
 
 > **Nota:** Es necesario cambiar el nombre del tema en el archivo de configuración de nuestro proyecto.
@@ -245,7 +245,7 @@ authors:
 ```
 > **Nota:** Las partes comentadas son opcionales, no afectarán al sitio si no se llena con información.
 
-> Para agregar mas links sociales, escribir el nombre de la red social de acuerdo al nombre del icono de [FontAwesome](http://fontawesome.io/icons/#brand)
+> Para agregar mas links sociales, escribir el nombre de la red social de acuerdo al nombre del icono de [FontAwesome](https://fontawesome.com/v4.7.0/icons/#brand)
 
 > El identificador del autor se debe agregar en cada post
 ``` yml
