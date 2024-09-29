@@ -41,7 +41,7 @@
 /* Apply these base styles to all icons */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "FontAwesome", "Rambla";
+  font-family: "FontAwesome";
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -130,11 +130,7 @@
    2. General - Setting up some base styles
    ========================================================================== */
 
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
 :root {
-  --accent: #2337ff;
-  --accent-dark: #000d8a;
   --black: 15, 18, 25;
   --gray: 96, 115, 159;
   --gray-light: 229, 233, 240;
@@ -160,13 +156,6 @@ body {
   line-height: 1.75em;
   color: #3a4145;
   text-rendering: geometricPrecision;
-}
-
-main {
-  width: 720px;
-  max-width: calc(100% - 2em);
-  margin: auto;
-  padding: 3em 1em;
 }
 
 ::-moz-selection {
