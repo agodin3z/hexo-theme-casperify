@@ -1,0 +1,19 @@
+<%
+  var a = theme.authors;
+  var c = Object.keys(a);
+%>
+
+<main id="content" class="content" role="main">
+  <div class="post">
+    <h2>Authors</h2>
+  </div>
+  <% for (var b of c){ %>
+    <section class="post">
+      <% if (a[b].username ) {%>
+        <img class="author-thumb" src="<%- a[b].avatar || config.avatar %>" alt="<%= a[b].name || a[b].username %>" nopin="nopin">
+        <a href="<%- config.root %>authors/<%= a[b].username %>"><h5> <%= a[b].name || a[b].username %></h5></a>
+        <p><%- a[b].shortbio %></p>
+      <% } %>
+    </section>
+  <% } %>
+</main>

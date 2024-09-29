@@ -5,7 +5,7 @@
 <section class="post-meta">
     <% if (a[b].username || post.author_username ) {%>
       <img class="author-thumb" src="<%- a[b].avatar || post.avatar %>" alt="<%= a[b].name || post.author_name %>" nopin="nopin">
-      <a href="<%- config.root %>author/<%= a[b].username || post.author_username %>"><span> <%= a[b].name || post.author_name %></span></a>
+      <a href="<%- config.root %>authors/<%= a[b].username || post.author_username %>"><span> <%= a[b].name || post.author_name %></span></a>
     <% } %>
     <% if (post.tags && post.tags.length){ %>
     <% count = post.tags.length %>
