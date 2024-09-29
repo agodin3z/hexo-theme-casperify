@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Casperify</title>
+  
+  <subtitle>A theme for Hexo</subtitle>
+  <link href="https://agodin3z.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://agodin3z.github.io/"/>
+  <updated>2024-09-29T01:30:04.235Z</updated>
+  <id>https://agodin3z.github.io/</id>
+  
+  <author>
+    <name>redpanda</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excerpts</title>
+    <link href="https://agodin3z.github.io/excerpts/"/>
+    <id>https://agodin3z.github.io/excerpts/</id>
+    <published>2016-01-16T23:13:43.961Z</published>
+    <updated>2024-09-29T01:30:04.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>The following contents should be invisible in home&#x2F;archive page.</p><span id="more"></span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;The following contents should be invisible in home&amp;#x2F;archive page.&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="invisible-content" scheme="https://agodin3z.github.io/tags/invisible-content/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://agodin3z.github.io/hello-world/"/>
+    <id>https://agodin3z.github.io/hello-world/</id>
+    <published>2016-01-16T23:13:43.961Z</published>
+    <updated>2024-09-29T01:30:04.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+    <category term="sample" scheme="https://agodin3z.github.io/tags/sample/"/>
+    
+    <category term="code" scheme="https://agodin3z.github.io/tags/code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gallery Test</title>
+    <link href="https://agodin3z.github.io/gallery-post/"/>
+    <id>https://agodin3z.github.io/gallery-post/</id>
+    <published>2016-01-16T23:13:43.961Z</published>
+    <updated>2024-09-29T01:30:04.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a image gallery test post.</p><span id="more"></span><blockquote><p>All images are generated using <a href="https://openai.com/dall-e-3">DALL·E 3</a>.</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;This is a image gallery test post.&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="test" scheme="https://agodin3z.github.io/tags/test/"/>
+    
+    <category term="gallery" scheme="https://agodin3z.github.io/tags/gallery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Image Test Post</title>
+    <link href="https://agodin3z.github.io/images/"/>
+    <id>https://agodin3z.github.io/images/</id>
+    <published>2016-01-16T23:13:43.961Z</published>
+    <updated>2024-09-29T01:30:04.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a image test post.</p><img src="/hexo-theme-casperify/images/beab12e1-e3bb-400f-894e-fd46faf1d32f.jpg" class="" title="local asset" alt="Con tecnología de DALL·E 3"><img src="https://images.unsplash.com/photo-1469569946320-b4f13e4b7d5e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==" class="" title="remote asset" alt="Foto de @simone_dalmeri en Unsplash"><p><img src="http://placehold.it/450x150.jpg" alt="150x150 Picture"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;This is a image test post.&lt;/p&gt;
+&lt;img src=&quot;/hexo-theme-casperify/images/beab12e1-e3bb-400f-894e-fd46faf1d32f.jpg&quot; class=&quot;&quot; title=&quot;local ass</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://agodin3z.github.io/tags/test/"/>
+    
+    <category term="image" scheme="https://agodin3z.github.io/tags/image/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Link Post</title>
+    <link href="https://agodin3z.github.io/link-post/"/>
+    <id>https://agodin3z.github.io/link-post/</id>
+    <published>2016-01-16T23:13:43.961Z</published>
+    <updated>2024-09-29T01:30:04.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a link post. Clicking on the link should open <a href="http://www.google.com/">Google</a> in a new tab or window.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;This is a link post. Clicking on the link should open &lt;a href=&quot;http://www.google.com/&quot;&gt;Google&lt;/a&gt; in a new tab or window.&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="link" scheme="https://agodin3z.github.io/tags/link/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.</title>
+    <link href="https://agodin3z.github.io/long-title/"/>
+    <id>https://agodin3z.github.io/long-title/</id>
+    <published>2016-01-16T23:13:43.961Z</published>
+    <updated>2024-09-29T01:30:04.234Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post has a long title.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;This post has a long title.&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://agodin3z.github.io/tags/test/"/>
+    
+    <category term="long-title" scheme="https://agodin3z.github.io/tags/long-title/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Only Text</title>
+    <link href="https://agodin3z.github.io/only-text/"/>
+    <id>https://agodin3z.github.io/only-text/</id>
+    <published>2016-01-16T23:13:43.961Z</published>
+    <updated>2024-09-29T01:49:25.398Z</updated>
+    
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.</p><hr><h1 id="Heading-1"><a href="#Heading-1" class="headerlink" title="Heading 1"></a>Heading 1</h1><h2 id="Heading-2"><a href="#Heading-2" class="headerlink" title="Heading 2"></a>Heading 2</h2><h3 id="Heading-3"><a href="#Heading-3" class="headerlink" title="Heading 3"></a>Heading 3</h3><h4 id="Heading-4"><a href="#Heading-4" class="headerlink" title="Heading 4"></a>Heading 4</h4><h5 id="Heading-5"><a href="#Heading-5" class="headerlink" title="Heading 5"></a>Heading 5</h5><h6 id="Heading-6"><a href="#Heading-6" class="headerlink" title="Heading 6"></a>Heading 6</h6><hr><p><a href="">test link</a></p><p><strong>Strong text</strong></p><p><u>Underline text</u></p><p><em>Italic text</em></p><p><del>Deleted text</del></p><p>This is a <sup>superscript</sup> text</p><p>This is a <sub>subscript</sub> text</p><p><cite>This is a citation.</cite>. </p><p>Example of acronym: <acronym title="National Basketball Association">NBA</acronym> </p><p>Example of abbreviation: <abbr title="Avenue">AVE</abbr></p><p>Example of <code>code</code></p><hr><h2 id="List-Types"><a href="#List-Types" class="headerlink" title="List Types"></a>List Types</h2><h3 id="Definition-List-dl"><a href="#Definition-List-dl" class="headerlink" title="Definition List (dl)"></a>Definition List (dl)</h3><dl><dt>Definition List Title</dt><dd>This is a definition list division.</dd></dl><h3 id="Ordered-List-ol"><a href="#Ordered-List-ol" class="headerlink" title="Ordered List (ol)"></a>Ordered List (ol)</h3><ol><li>List Item 1</li><li>List Item 2</li><li>List Item 3</li></ol><h3 id="Unordered-List-ul"><a href="#Unordered-List-ul" class="headerlink" title="Unordered List (ul)"></a>Unordered List (ul)</h3><ul><li>List Item 1</li><li>List Item 2</li><li>List Item 3</li></ul><hr><h2 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h2><table><thead><tr><th>Table Header 1</th><th>Table Header 2</th><th>Table Header 3</th></tr></thead><tbody><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr><tr><td>Division 1</td><td>Division 2</td><td>Division 3</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. C</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://agodin3z.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Video Test Post</title>
+    <link href="https://agodin3z.github.io/videos/"/>
+    <id>https://agodin3z.github.io/videos/</id>
+    <published>2016-01-16T23:13:43.961Z</published>
+    <updated>2024-09-29T01:30:04.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>Youtube</strong></p><div class="video-container"><iframe src="https://www.youtube.com/embed/mYJm_V5_Oj4" frameborder="0" loading="lazy" allowfullscreen></iframe></div><p><strong>Vimeo</strong></p><div class="video-container"><iframe src="https://player.vimeo.com/video/44878206" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;This is a video test post.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/mY</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://agodin3z.github.io/tags/test/"/>
+    
+    <category term="video" scheme="https://agodin3z.github.io/tags/video/"/>
+    
+  </entry>
+  
+</feed>
